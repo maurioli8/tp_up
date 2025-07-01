@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+etherscan_api_key = "9CCAQCK29S32R2JNMMH5F2FQT3PUWWVBNF"
+sender = "0x6bE8F3a97423fc9F2E18d1D9C5699833B74e5dD0"
+addresses = "0x6bE8F3a97423fc9F2E18d1D9C5699833B74e5dD0"
+eth-rpc-url = "https://sepolia.infura.io/v3/5ab572fb4d1f439c81433ddfbb00b9ff"
+
+[rpc_endpoints]
+sepolia = "https://sepolia.infura.io/v3/5ab572fb4d1f439c81433ddfbb00b9ff"
