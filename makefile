@@ -4,6 +4,11 @@ PRIVATE_KEY=02561219f9e9a12ce38d9cf6779cfe054dce1b0aea502bd1945f85085c02885cd
 DEPLOYER_ADDRESS=0x6bE8F3a97423fc9F2E18d1D9C5699833B74e5dD0
 ETHERSCAN_API_KEY=3PZQ8KUTW39M4FII18KXR85SX2SUW6Y2X9
 
+# Comando para desplegar el contrato BUSD
+deploy-busd:
+	@echo "Desplegando contrato BUSD..."
+	forge script script/DeployBUSD.s.sol:DeployBUSD --rpc-url $(SEPOLIA_RPC_URL) --private-key $(PRIVATE_KEY) --broadcast --verify -vvvv
+
 # Variables necesarias para verificación e interacción
 BUSD_ADDRESS=0xBusdContrato
 CCNFT_ADDRESS=0xD1234D4BE496FE0FBf4e6DCbe61dBfF333E65e11
@@ -49,6 +54,7 @@ clean:
 deploy:
 	@echo "Desplegando en Sepolia..."
 	forge script script/DeployCCNFT.s.sol:DeployCCNFT --rpc-url $(SEPOLIA_RPC_URL) --private-key $(PRIVATE_KEY) --broadcast --verify -vvvv
+	forge script script/DeployBUSD.s.sol:DeployBUSD --rpc-url $(SEPOLIA_RPC_URL) --private-key $(PRIVATE_KEY) --broadcast --verify -vvvv
 
 verify-busd:
 	@echo "Verificando contrato BUSD..."
