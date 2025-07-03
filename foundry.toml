@@ -9,4 +9,3 @@ eth-rpc-url = "https://sepolia.infura.io/v3/5ab572fb4d1f439c81433ddfbb00b9ff"
 
 [rpc_endpoints]
 sepolia = "https://sepolia.infura.io/v3/5ab572fb4d1f439c81433ddfbb00b9ff"
-.

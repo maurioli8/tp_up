@@ -12,3 +12,7 @@ docs/
 
 # Dotenv file
 .env
+
+
+echo ".env" >> .gitignore
+# Ignore the .env file

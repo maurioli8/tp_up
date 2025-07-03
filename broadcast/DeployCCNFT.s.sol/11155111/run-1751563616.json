@@ -1,7 +1,7 @@
 {
   "transactions": [
     {
-      "hash": "0x8daa849abbbd02d23f36edc50c84efbb42acce62bb8618b8d1600ce49f748709",
+      "hash": null,
       "transactionType": "CREATE",
       "contractName": "CCNFT",
       "contractAddress": "0xd1234d4be496fe0fbf4e6dcbe61dbff333e65e11",
@@ -22,45 +22,11 @@
       "isFixedGasLimit": false
     }
   ],
-  "receipts": [
-    {
-      "status": "0x1",
-      "cumulativeGasUsed": "0x1a86139",
-      "logs": [
-        {
-          "address": "0xd1234d4be496fe0fbf4e6dcbe61dbff333e65e11",
-          "topics": [
-            "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
-            "0x0000000000000000000000000000000000000000000000000000000000000000",
-            "0x0000000000000000000000006be8f3a97423fc9f2e18d1d9c5699833b74e5dd0"
-          ],
-          "data": "0x",
-          "blockHash": "0x0970fc90d5040b443b32651c75ea5c134346aa4eeb559441f15aed58eb28e348",
-          "blockNumber": "0x8484e8",
-          "blockTimestamp": "0x6866be90",
-          "transactionHash": "0x8daa849abbbd02d23f36edc50c84efbb42acce62bb8618b8d1600ce49f748709",
-          "transactionIndex": "0x121",
-          "logIndex": "0x1cc",
-          "removed": false
-        }
-      ],
-      "logsBloom": "0x00000000000000000000000000000000000000000000000000800000800000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000040000001000000000000000000000000000000000000020000000000000000000800000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000020000000000000000000000020000000000000000000000000000000000000000000",
-      "type": "0x2",
-      "transactionHash": "0x8daa849abbbd02d23f36edc50c84efbb42acce62bb8618b8d1600ce49f748709",
-      "transactionIndex": "0x121",
-      "blockHash": "0x0970fc90d5040b443b32651c75ea5c134346aa4eeb559441f15aed58eb28e348",
-      "blockNumber": "0x8484e8",
-      "gasUsed": "0x51819c",
-      "effectiveGasPrice": "0x57f5bed8",
-      "from": "0x6be8f3a97423fc9f2e18d1d9c5699833b74e5dd0",
-      "to": null,
-      "contractAddress": "0xd1234d4be496fe0fbf4e6dcbe61dbff333e65e11"
-    }
-  ],
+  "receipts": [],
   "libraries": [],
   "pending": [],
   "returns": {},
-  "timestamp": 1751563965,
+  "timestamp": 1751563616,
   "chain": 11155111,
   "commit": "6a022af"
 }
